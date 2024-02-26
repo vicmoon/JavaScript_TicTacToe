@@ -5,13 +5,17 @@
 }
 
 :root {
-    --orange: #F2C14E;
+
     --winning-blocks: #2d414b;
 }
 
 body {
-    color: var(--orange);
+    color: orangered;
     font-family: 'Finger Paint', cursive;
+    background-image: url(retro_game.jpg);
+    background-image: opacity(0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h1 {
@@ -26,7 +30,7 @@ h1 {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-color: #37505C;
+    /* background-color: #37505C; */
 }
 
 #gameboard {
@@ -56,7 +60,7 @@ h1 {
 button {
     padding: 10px 20px;
     border-radius: 10px;
-    background-color: var(--orange);
+    background-color: orangered;
     color: #333;
     border-color: var(--orange);
     font-size: 18px;
