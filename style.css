@@ -10,9 +10,9 @@
 }
 
 body {
-    color: orangered;
+    color: white;
     font-family: 'Finger Paint', cursive;
-    background-image: url(retro_game.jpg);
+    background-image: url(background_game.jpg);
     background-image: opacity(0.5);
     background-repeat: no-repeat;
     background-size: cover;
@@ -45,7 +45,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: var(--orange);
+    color: white;
     font-size: 120px;
     border-right: 2px solid;
     border-bottom: 2px solid;
@@ -59,7 +59,8 @@ h1 {
 } 
 button {
     padding: 10px 20px;
-    border-radius: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
     background-color: orangered;
     color: #333;
     border-color: var(--orange);
