@@ -2,14 +2,15 @@ let playerText = document.getElementById('player_text');
 let restartBTN = document.getElementById('restart_btn');
 let boxes = Array.from(document.getElementsByClassName('box'));
 let winnerIndicator = getComputedStyle(document.body).getPropertyValue('--winning-blocks'); 
-let currentPlayer = X__text; 
-let spaces = Array(9).fill(null);
 
 // console.log(boxes); // need to convert into  an array 
 
 const O_text = 'O';
 const X__text = 'X'; 
 const startGame = () => boxes.forEach(box => box.addEventListener('click', boxClick));
+
+let currentPlayer = X__text; 
+let spaces = Array(9).fill(null);
 
 
 
@@ -63,7 +64,7 @@ function restartGame (){
 
     playerText.innerHTML = 'Tic Tac Toe'
 
-    currentPlayer = X_TEXT
+    currentPlayer = X__text; 
 }; 
 
 startGame(); 
